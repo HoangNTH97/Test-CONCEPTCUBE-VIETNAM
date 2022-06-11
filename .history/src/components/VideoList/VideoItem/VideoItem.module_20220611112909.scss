@@ -1,0 +1,9 @@
+.video-item {
+    width: 360px;
+    height: 204px;
+
+    &-image {
+        width: 100%;
+        object-fit: cover;
+    }
+}

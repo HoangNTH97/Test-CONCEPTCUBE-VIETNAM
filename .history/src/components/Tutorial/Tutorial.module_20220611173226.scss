@@ -1,0 +1,22 @@
+.tutorial {
+    width: 100%;
+    margin-top: 80px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduce {
+    width: 352px;
+
+    .title {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: var(--primary-color);
+    }
+
+    .desc {
+        margin-top: 28px;
+        font-size: 3.5rem;
+    }
+}

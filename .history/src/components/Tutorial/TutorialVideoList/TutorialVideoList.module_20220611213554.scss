@@ -1,0 +1,57 @@
+.video-tutorial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 90px;
+    margin-bottom: 15px;
+
+    .background {
+        width: 160px;
+        height: 90px;
+
+        & img {
+            width: 100%;
+            object-fit: cover;
+            background-size: cover;
+        }
+    }
+
+    .detail {
+        max-width: 272px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        line-height: 20px;
+        color: var(--primary-color);
+
+        .title {
+            h2 {
+                font-size: 1.8rem;
+                font-weight: 500;
+            }
+        }
+
+        .desc {
+            p {
+                font-size: 1.2rem;
+                font-weight: 300;
+            }
+        }
+
+        .video-interact {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .like,
+            .view {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-size: 1.2rem;
+                font-weight: 300;
+            }
+        }
+    }
+}

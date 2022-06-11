@@ -1,0 +1,33 @@
+.video-item {
+    width: 360px;
+    height: 204px;
+
+    .video-image {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .video-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .video-info {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .video-interact {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            .like,
+            .view {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

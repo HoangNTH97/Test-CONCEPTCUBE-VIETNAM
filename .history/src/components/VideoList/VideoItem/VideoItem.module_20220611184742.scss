@@ -1,0 +1,36 @@
+.video-item {
+    color: var(--primary-color);
+
+    .video-image {
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .video-details {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .video-info {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        .video-interact {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.2rem;
+            font-weight: 300;
+            .like,
+            .view {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

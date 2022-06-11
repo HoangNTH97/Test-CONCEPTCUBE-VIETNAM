@@ -1,0 +1,12 @@
+.video-list {
+    width: 100%;
+
+    .video-top,
+    .video-bottom {
+        padding: 0 30px;
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

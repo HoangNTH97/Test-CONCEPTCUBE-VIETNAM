@@ -1,0 +1,23 @@
+.video-tutorial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 90px;
+
+    .background {
+        width: 160px;
+        height: 90px;
+
+        & img {
+            width: 100%;
+            object-fit: cover;
+            background-size: cover;
+        }
+    }
+
+    .detail {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

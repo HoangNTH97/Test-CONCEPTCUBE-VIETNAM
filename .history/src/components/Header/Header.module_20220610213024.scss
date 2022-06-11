@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100vw;
+    height: 60px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner {
+}
+
+.logo {
+}
+
+.search {
+    width: 600px;
+
+    & input {
+        width: 100%;
+        color: var(--white-color);
+        background-color: inherit;
+        border: none;
+    }
+}

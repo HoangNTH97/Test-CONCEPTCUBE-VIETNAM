@@ -1,0 +1,18 @@
+.wrapper {
+    font-size: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--white);
+    border: 1px solid transparent;
+    user-select: none;
+    display: inline-flex;
+
+    + .wrapper {
+        margin-left: 30px;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.2;
+    }
+}
