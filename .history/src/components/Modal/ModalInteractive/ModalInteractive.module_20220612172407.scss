@@ -1,0 +1,36 @@
+.interactive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+
+    .title {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .interact {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+        font-size: 1.8rem;
+        font-weight: 300;
+
+        .like,
+        .view,
+        .user {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+    }
+    .date {
+        margin-top: 20px;
+    }
+
+    .button {
+        margin-top: 40px;
+    }
+}

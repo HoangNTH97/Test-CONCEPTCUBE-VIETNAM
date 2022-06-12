@@ -1,0 +1,10 @@
+.interactive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .interact {
+        display: flex;
+    }
+}

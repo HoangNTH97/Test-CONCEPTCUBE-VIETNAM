@@ -1,0 +1,20 @@
+.video {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+
+    & img {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .play-btn {
+        width: 130px;
+        height: 80px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

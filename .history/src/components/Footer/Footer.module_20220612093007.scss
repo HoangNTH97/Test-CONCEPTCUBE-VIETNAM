@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+}
+
+.top {
+    height: 40px;
+    padding: 14px 30px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--grey-color);
+
+    .info {
+        display: flex;
+        align-items: center;
+
+        & h3 {
+            margin-right: 30px;
+        }
+    }
+
+    .media-and-copyright {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: 200px;
+
+        .media {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+}

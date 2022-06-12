@@ -1,0 +1,36 @@
+.modal-list-video {
+    margin-top: 50px;
+    background-color: var(--dark-color);
+    padding: 50px 40px;
+    .infomation {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+
+        .avatar {
+            background-color: var(--white-color);
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+        }
+
+        & h4 {
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+    }
+
+    .list-video {
+        margin-top: 15px;
+        position: relative;
+
+        .next-arrow {
+            position: absolute;
+        }
+
+        .spaces {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}

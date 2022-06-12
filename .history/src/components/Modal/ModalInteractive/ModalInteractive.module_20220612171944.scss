@@ -1,0 +1,18 @@
+.interactive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .interact {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+        .like,
+        .view,
+        .user {
+            display: flex;
+        }
+    }
+}

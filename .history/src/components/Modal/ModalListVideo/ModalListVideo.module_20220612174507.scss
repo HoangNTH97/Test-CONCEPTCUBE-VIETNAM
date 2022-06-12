@@ -1,0 +1,25 @@
+.modal-list-video {
+    .infomation {
+        display: flex;
+        gap: 25px;
+
+        .avatar {
+            width: 70px;
+            height: 70px;
+        }
+
+        & h4 {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+    }
+
+    .list-video {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.modal-list-video {
+    .infomation {
+        display: flex;
+        gap: 25px;
+
+        .avatar {
+            width: 70px;
+            height: 70px;
+        }
+    }
+
+    .list-video {
+        display: flex;
+        gap: 10px;
+    }
+}

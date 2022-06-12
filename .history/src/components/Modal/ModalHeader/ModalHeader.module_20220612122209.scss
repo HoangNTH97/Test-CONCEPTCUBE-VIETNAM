@@ -1,0 +1,18 @@
+.header {
+}
+
+.header-left {
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    & img {
+        object-fit: cover;
+        background-size: cover;
+        width: 100%;
+    }
+}

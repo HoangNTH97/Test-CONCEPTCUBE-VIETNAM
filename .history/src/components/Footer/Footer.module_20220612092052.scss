@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+}
+
+.top {
+    height: 40px;
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--grey-color);
+
+    .info {
+        display: flex;
+        align-items: center;
+
+        & h3 {
+            margin-right: 30px;
+        }
+    }
+}

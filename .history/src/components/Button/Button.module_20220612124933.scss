@@ -1,0 +1,82 @@
+.wrapper {
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: var(--white);
+    border: 1px solid transparent;
+    user-select: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+
+    + .wrapper {
+        margin-left: 4px;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.2;
+    }
+}
+
+.left-icon + .title,
+.title + .right-icon {
+    margin-left: 8px;
+}
+
+.icon {
+    display: inline-flex;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.primaryLarge {
+    max-width: 200px;
+    height: 80px;
+    padding: 20px 40px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    margin-right: 10px;
+
+    &:hover {
+        background-color: var(--secondary-color);
+    }
+}
+
+.primarySmall {
+    width: 142px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+.outLine {
+    width: 142px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+
+    :hover {
+        background-color: var(--grey-dark);
+        cursor: pointer;
+    }
+}
+
+.text {
+    color: var(--grey-dark);
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
