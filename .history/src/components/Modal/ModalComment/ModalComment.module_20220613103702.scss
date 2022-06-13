@@ -1,0 +1,98 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-left {
+    width: 80%;
+    border-right: 1px solid var(--primary-color);
+    .comment-title {
+        margin-top: 50px;
+        font-size: 20px;
+        color: var(--primary-color);
+    }
+    .comment-input {
+        margin-top: 20px;
+        width: 100%;
+
+        & input {
+            width: 80%;
+            padding: 15px;
+        }
+
+        .btn {
+            height: 58px;
+        }
+    }
+
+    .comment-list {
+        margin-top: 40px;
+    }
+
+    .comment-item {
+        .comment-inf {
+            display: flex;
+            justify-content: space-between;
+
+            & p {
+                font-size: 1.2rem;
+                font-weight: 300;
+            }
+
+            .info {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .remove {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-right: 60px;
+                cursor: pointer;
+                display: none;
+            }
+
+            &:hover .remove {
+                display: flex;
+            }
+        }
+
+        .comment-content {
+            margin-right: 60px;
+            margin-top: 13px;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+    }
+}
+
+.comment-more {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .more {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+.comment-right {
+    width: 20%;
+}
+
+.owner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--primary-color);
+
+    .location {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}

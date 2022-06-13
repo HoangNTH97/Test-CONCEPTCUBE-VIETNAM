@@ -1,0 +1,15 @@
+.wrapper {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-left {
+    width: 70%;
+    border-right: 1px solid var(--primary-color);
+    .comment-title {
+        margin-top: 50px;
+        font-size: 20px;
+        color: var(--primary-color);
+    }
+}

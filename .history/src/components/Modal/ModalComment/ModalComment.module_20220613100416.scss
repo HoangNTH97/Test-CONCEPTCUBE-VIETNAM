@@ -1,0 +1,43 @@
+.wrapper {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-left {
+    width: 80%;
+    border-right: 1px solid var(--primary-color);
+    .comment-title {
+        margin-top: 50px;
+        font-size: 20px;
+        color: var(--primary-color);
+    }
+    .comment-input {
+        margin-top: 20px;
+        width: 100%;
+
+        & input {
+            width: 80%;
+            padding: 15px;
+        }
+
+        .btn {
+            height: 58px;
+        }
+    }
+
+    .comment-list {
+        margin-top: 40px;
+    }
+
+    .comment-item {
+        .comment-inf {
+            display: flex;
+            justify-content: space-between;
+
+            .info {
+                display: flex;
+            }
+        }
+    }
+}

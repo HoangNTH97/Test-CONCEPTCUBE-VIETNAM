@@ -1,0 +1,55 @@
+.video-item {
+    width: 360px;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    .video-image {
+        width: 100%;
+        height: 200px;
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-size: cover;
+        }
+
+        .title {
+            width: 100%;
+            height: 200px;
+            position: absolute;
+        }
+    }
+
+    .video-details {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .video-info {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        .video-interact {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.2rem;
+            font-weight: 300;
+            .like,
+            .view {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
