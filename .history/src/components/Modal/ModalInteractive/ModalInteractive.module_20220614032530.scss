@@ -41,17 +41,9 @@
     .interactive {
         padding: 20px 20px;
         margin-top: 20px;
-
-        .title {
-            display: inline-flex;
-            text-align: center;
-        }
     }
 
     .button {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
         &:nth-child(1),
         :nth-child(2) {
             margin-left: 0;

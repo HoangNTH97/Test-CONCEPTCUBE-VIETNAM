@@ -47,7 +47,7 @@ function Header() {
                 <div className={cx('search')}>
                     <input ref={inputRef} type="text" placeholder="Search for motion trend......" />
 
-                    <Button outLine className={cx('search-btn-responsive')}>
+                    <Button outLine>
                         <img src={searchIcon} alt="" />
                     </Button>
                 </div>

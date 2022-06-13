@@ -60,11 +60,6 @@
             margin-top: 20px;
             display: none;
             background-color: var(--secondary-color);
-
-            &:hover {
-                cursor: pointer;
-                opacity: 0.8;
-            }
         }
     }
 
@@ -109,11 +104,6 @@
 
         .search {
             width: 100%;
-
-            .search-btn-responsive {
-                display: flex;
-                width: 100px;
-            }
         }
 
         .action {
@@ -167,11 +157,6 @@
 
         .search {
             width: 100%;
-
-            .search-btn-responsive {
-                display: flex;
-                width: 100px;
-            }
         }
 
         .action {
