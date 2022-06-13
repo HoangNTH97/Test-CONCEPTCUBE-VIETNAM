@@ -1,0 +1,95 @@
+.tutorial {
+    width: 100%;
+    height: 418px;
+    padding: 0 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-color);
+}
+
+.introduce {
+    height: 100%;
+    width: 352px;
+    margin-top: 80px;
+    .title {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: var(--primary-color);
+    }
+
+    .desc {
+        margin-top: 28px;
+        font-size: 3.5rem;
+        font-weight: 500;
+        line-height: 1;
+        color: var(--primary-color);
+    }
+    .watch-btn {
+        margin-top: 70px;
+        height: 40px;
+    }
+}
+
+.live-video {
+    height: 100%;
+    margin-top: 80px;
+
+    .video {
+        width: 530px;
+        height: 300px;
+        position: relative;
+
+        .img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+            background-size: cover;
+        }
+
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .live {
+        width: 63px;
+        height: 28px;
+        background-color: red;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-color);
+        position: absolute;
+        left: -10px;
+        top: 10px;
+    }
+}
+
+.list-video {
+    margin-top: 80px;
+    height: 100%;
+}
+
+// Tablet
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .tutorial {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+//Mobile
+@media (max-width: 739px) {
+}

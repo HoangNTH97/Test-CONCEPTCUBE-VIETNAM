@@ -1,0 +1,16 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import LateralMenuItem from './LateralMenuItem/LateralMenuItem';
+import { PageIcon } from '../../Icon/icons';
+
+ModalLateralMenu.propTypes = {};
+
+function ModalLateralMenu() {
+    return (
+        <div>
+            <LateralMenuItem icon={<PageIcon />}>Page</LateralMenuItem>
+        </div>
+    );
+}
+
+export default ModalLateralMenu;
