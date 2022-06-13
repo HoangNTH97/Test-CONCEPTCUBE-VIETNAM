@@ -1,0 +1,39 @@
+.video-list {
+    margin-top: 30px;
+    width: 100%;
+
+    .detail {
+        padding: 0 30px;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.8rem;
+        font-weight: 300;
+
+        .list-detail {
+            display: flex;
+            gap: 30px;
+
+            & a {
+                text-decoration: none;
+                color: var(--primary-color);
+            }
+
+            & a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .active {
+        font-weight: 500;
+        text-decoration: underline !important;
+    }
+    .video-top,
+    .video-bottom {
+        padding: 0 30px;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

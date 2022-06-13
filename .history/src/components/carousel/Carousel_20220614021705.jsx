@@ -126,17 +126,17 @@ function Carousel() {
                         </Button>
                     ))}
                 </Slider>
-            </div>
 
-            <div className={cx('detail')}>
-                <div className={cx('list-detail')}>
-                    <a href="!#" className={cx('active')}>
-                        Motion trend pick
-                    </a>
-                    <a href="!#">Latest</a>
-                    <a href="!#">Recommended</a>
+                <div className={cx('detail')}>
+                    <div className={cx('list-detail')}>
+                        <a href="!#" className={cx('active')}>
+                            Motion trend pick
+                        </a>
+                        <a href="!#">Latest</a>
+                        <a href="!#">Recommended</a>
+                    </div>
+                    <p>Selection criteria</p>
                 </div>
-                <p>Selection criteria</p>
             </div>
         </div>
     );
